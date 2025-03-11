@@ -15,21 +15,72 @@
             <div class="row w-100 align-items-center">
                 
                 <!-- Logo -->
-                <div class="col-md-1">
-                    <div class="card-body">
-                        <div align="left">
+                    <div class="col-md-1">
+                        <!-- Contenedor de la tarjeta donde se encuentra el logo -->
+                        <div class="card-body">
+                            <!-- Alineación a la izquierda del logo -->
+                            <div align="left">
+                            <!-- Imagen del logo, con clase 'img-fluid' para hacerlo adaptable -->
                             <img src="./imagenes/LOGO1.png" class="img-fluid" alt="Logo el rincon de las pizzas">
-                        </div>
+                            </div>
+                         </div>
                     </div>
-                </div>
                 <!-- Fin del Logo -->
 
                 <!-- Botón Ordena -->
-                
+                    <div class="col-auto p-1 m-0">
+                        <!-- Contenedor del botón de tipo dropdown (desplegable) -->
+                        <div class="dropdown">
+                            <!-- Botón que activa el menú desplegable, con clase 'btn-danger' para hacerlo rojo -->
+                            <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ordena
+                            </button>
+                            <!-- Menú desplegable -->
+                            <ul class="dropdown-menu">
+                            <!-- Opción "A domicilio" dentro del menú -->
+                            <li><a class="dropdown-item" href="#">A domicilio</a></li>
+                            <!-- Línea divisoria entre las opciones -->
+                            <li><hr class="dropdown-divider"></li>
+                            <!-- Opción "En tienda" dentro del menú -->
+                            <li><a class="dropdown-item" href="#">En tienda</a></li>
+                            </ul>
+                          </div>
+                    </div>
                 <!-- Fin del Botón Ordena -->
 
                 <!-- Botón Menú -->
-                
+                <div class="col-auto p-1 m-0">
+                    <!-- Contenedor del botón de tipo dropdown (desplegable) -->
+                    <div class="dropdown">
+                        <!-- Botón que activa el menú desplegable, con clase 'btn-danger' para hacerlo rojo -->
+                        <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Menú
+                        </button>
+                            <!-- Menú desplegable -->
+                            <ul class="dropdown-menu">
+                                <!-- Opción "Pizzas" dentro del menú -->
+                                <li><a class="dropdown-item" href="#">Pizzas</a></li>
+                                <!-- Línea divisoria entre las opciones -->
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Opción "Pollo" dentro del menú -->
+                                <li><a class="dropdown-item" href="#">Pollo</a></li>
+                                <!-- Línea divisoria entre las opciones -->
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Opción "Adicionales" dentro del menú -->
+                                <li><a class="dropdown-item" href="#">Adicionales</a></li>
+                                <!-- Línea divisoria entre las opciones -->
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Opción "Bebidas" dentro del menú -->
+                                <li><a class="dropdown-item" href="#">Bebidas</a></li>
+                                <!-- Línea divisoria entre las opciones -->
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Opción "Postres" dentro del menú -->
+                                <li><a class="dropdown-item" href="#">Postres</a></li>
+                            </ul>
+                    </div>
+                </div>
+<!-- Fin del Botón Menú -->
+
                 <!-- Fin del Botón Menú -->
 
                 <!-- Botón Promos (Menú Flotante) -->
