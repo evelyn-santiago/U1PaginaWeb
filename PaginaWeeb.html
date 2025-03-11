@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/estilos/estilos.css">
     <title>EL RINCÓN DE LA PIZZA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -75,6 +75,131 @@
         <h1>Bienvenidos a Pizzería El rincoon de la pizza</h1>
         <p>Las mejores pizzas,  recién hechas para ti</p>
     </header>
+
+     <!-- Inicio del carrusel de banners -->
+     <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <!-- Etiqueta que contiene la imagen del banner1 -->
+            <div class="carousel-item active">
+                <img src="./imagenes/Banner1.png" class="d-block w-100" alt="Pizza artesanal">
+            </div>
+            <!-- Etiqueta que contiene la imagen del banner4 -->
+            <div class="carousel-item">
+                <img src="./imagenes/Banner4.png" class="d-block w-100" alt="Pizza doble queso">
+            </div>
+            <!-- Etiqueta que contiene la imagen del banner3 -->
+            <div class="carousel-item">
+                <img src="./imagenes/Banner3.png" class="d-block w-100" alt="Pizza con hierbas">
+            </div>
+            <!-- Etiqueta que contiene la imagen del banner2 -->
+            <div class="carousel-item">
+                <img src="./imagenes/Banner2.png" class="d-block w-100" alt="Pizza de peperoni">
+            </div>
+        </div>
+        <!-- Botón para regresar el banner -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <!-- Botón para adelantar el banner -->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    <!-- Cierre del carrusel -->
+
+    <!-- Productos destacados -->
+    <div class="container-sm">
+        <br>
+        <h3><center>------------------------------------ Productos destacados ----------------------------------</center></h3>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <!-- Imagen de las bombas pepperoni -->
+                    <div class="card-header"><center>Bombas Pepperoni</center></div>
+                    <div class="card-body">
+                        <img src="./imagenes/bouns.jpg" alt="Bombs" class="img-fluid" style="width: 280px; height: 280px;">
+                        <p>Precio: $59 la orden.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <!-- Imagen de la pizza de peperoni con hierbas -->
+                    <div class="card-header"><center>Pizza Pepperoni con hierbas</center></div>
+                    <div class="card-body">
+                        <img src="./imagenes/pizaa_chorizo.jpg" alt="Pizza de peperoni con hierbas" class="img-fluid" style="width: 280px; height: 280px;">
+                        <p>Precio: $99 la pizza pequeña.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <!-- Imagen de la pizza barbacoa -->
+                    <div class="card-header"><center>Pizza Barbacoa</center></div>
+                    <div class="card-body">
+                        <img src="./imagenes/carne-fria.jpg" alt="Pizza con barcaboa" class="img-fluid" style="width: 280px; height: 280px;">
+                        <p>Precio: $89 la pizza pequeña.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <!-- Imagen del combo del día -->
+                    <div class="card-header"><center>Combo del día</center></div>
+                    <div class="card-body">
+                        <img src="./imagenes/combos-pizza.jpg" alt="Pizzas en oferta" class="img-fluid" style="width: 280px; height: 280px;">
+                        <p>Precio: $169, incluye 2 pizzas pequeñas y dos refrescos de 355ml.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inicia el pie de página -->
+    <footer>
+        <div style="background-color:#AD2E05; padding: 20px; margin-top: 20px; font-family: arial; color:white; font-size: 10px" class="row">
+            <div class="col-md-3">
+                <div class="card-header">LEGALES:</div>
+                <div class="card-body">
+                    <p style="padding: 20px; margin-top: 20px; font-family: arial; color:white; font-size: 14px">
+                        <!-- Enlace de la página  de "Política de privacidad" -->
+                        <a href="politica_de_privacidad.html" target="_blank" style="color: white; text-decoration: underline;">
+                            Política de privacidad
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card-header">REDES SOCIALES:</div>
+                <div class="card-body">
+                    <p style="padding: 20px; margin-top: 20px; font-family: arial; color:white; font-size: 14px">
+                        <!-- Enlace de facebook -->
+                        <a href="https://es-la.facebook.com/login/" target="_blank" style="color: white; text-decoration: underline;">
+                            Facebook
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card-header">DIRECCIÓN:</div>
+                <p style="padding: 20px; margin-top: 20px; font-family: arial; color:white; font-size: 14px">
+                    <!-- Enlace de google maps -->
+                    <a href="https://www.google.com.mx/maps/place/69800+Tlaxiaco,+Oax./@17.266522,-97.680835,16.38z/data=!4m6!3m5!1s0x85c62ec1f70b7fdd:0x5bf555f747e65636!8m2!3d17.2661075!4d-97.676773!16s%2Fg%2F11c5qpk920?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color: white; text-decoration: underline;">
+                        Colonia Centro número 17
+                    </a>
+                </p>
+            </div>
+            <div class="col-md-12">
+                <br>
+                <div class="card-header"><center>©2025 EL RINCÓN DE LA PIZZA. TODOS LOS DERECHOS RESERVADOS</center></div>
+                <br>
+            </div>
+        </div>
+    </footer>
+    <!-- Termina el pie de página -->
 
     <!-- Scripts de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
