@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estilos/estilos.css">
+    <link rel="stylesheet" href="/css/estilo.css">
     <title>EL RINCÓN DE LA PIZZA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -15,90 +15,25 @@
             <div class="row w-100 align-items-center">
                 
                 <!-- Logo -->
-                    <div class="col-md-1">
-                        <!-- Contenedor de la tarjeta donde se encuentra el logo -->
-                        <div class="card-body">
-                            <!-- Alineación a la izquierda del logo -->
-                            <div align="left">
-                            <!-- Imagen del logo, con clase 'img-fluid' para hacerlo adaptable -->
+                <div class="col-md-1">
+                    <div class="card-body">
+                        <div align="left">
                             <img src="./imagenes/LOGO1.png" class="img-fluid" alt="Logo el rincon de las pizzas">
-                            </div>
-                         </div>
+                        </div>
                     </div>
+                </div>
                 <!-- Fin del Logo -->
 
                 <!-- Botón Ordena -->
-                    <div class="col-auto p-1 m-0">
-                        <!-- Contenedor del botón de tipo dropdown (desplegable) -->
-                        <div class="dropdown">
-                            <!-- Botón que activa el menú desplegable, con clase 'btn-danger' para hacerlo rojo -->
-                            <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Ordena
-                            </button>
-                            <!-- Menú desplegable -->
-                            <ul class="dropdown-menu">
-                            <!-- Opción "A domicilio" dentro del menú -->
-                            <li><a class="dropdown-item" href="#">A domicilio</a></li>
-                            <!-- Línea divisoria entre las opciones -->
-                            <li><hr class="dropdown-divider"></li>
-                            <!-- Opción "En tienda" dentro del menú -->
-                            <li><a class="dropdown-item" href="#">En tienda</a></li>
-                            </ul>
-                          </div>
-                    </div>
+                
                 <!-- Fin del Botón Ordena -->
 
                 <!-- Botón Menú -->
-                <div class="col-auto p-1 m-0">
-                    <!-- Contenedor del botón de tipo dropdown (desplegable) -->
-                    <div class="dropdown">
-                        <!-- Botón que activa el menú desplegable, con clase 'btn-danger' para hacerlo rojo -->
-                        <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                         Menú
-                        </button>
-                            <!-- Menú desplegable -->
-                            <ul class="dropdown-menu">
-                                <!-- Opción "Pizzas" dentro del menú -->
-                                <li><a class="dropdown-item" href="#">Pizzas</a></li>
-                                <!-- Línea divisoria entre las opciones -->
-                                <li><hr class="dropdown-divider"></li>
-                                <!-- Opción "Pollo" dentro del menú -->
-                                <li><a class="dropdown-item" href="#">Pollo</a></li>
-                                <!-- Línea divisoria entre las opciones -->
-                                <li><hr class="dropdown-divider"></li>
-                                <!-- Opción "Adicionales" dentro del menú -->
-                                <li><a class="dropdown-item" href="#">Adicionales</a></li>
-                                <!-- Línea divisoria entre las opciones -->
-                                <li><hr class="dropdown-divider"></li>
-                                <!-- Opción "Bebidas" dentro del menú -->
-                                <li><a class="dropdown-item" href="#">Bebidas</a></li>
-                                <!-- Línea divisoria entre las opciones -->
-                                <li><hr class="dropdown-divider"></li>
-                                <!-- Opción "Postres" dentro del menú -->
-                                <li><a class="dropdown-item" href="#">Postres</a></li>
-                            </ul>
-                    </div>
-                </div>
-<!-- Fin del Botón Menú -->
-
+                
                 <!-- Fin del Botón Menú -->
 
                 <!-- Botón Promos (Menú Flotante) -->
-                <div class="col-auto p-1 m-0">
-                    <div class="dropdown">
-                        <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Promos
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">¡2x1 en Pizzas los Martes!</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Pizza Familiar + Bebida Gratis</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Combo de Fin de Semana</a></li>
-                            <li><a class="dropdown-item" href="#" style="padding-left: 30px;">Pizza mediana + 6 alitas + refresco</a></li>
-                        </ul>
-                    </div>
-                </div>
+                
 
                 <!-- Fin del Botón Promos -->
 
@@ -107,7 +42,6 @@
                     <a class="navbar-brand">EL RINCÓN DE LA PIZZA</a>
                 </div>
 
-                
                 <!-- Botones a la derecha -->
                 <div class="col-auto ms-auto">
                     <button class="btn btn-outline-light" onclick="window.location.href='file:///C:/Users/nancy/Desktop/PaginaWebU1/formulario.html'">Iniciar sesión</button>
@@ -135,143 +69,12 @@
         </div>
     </div>
     <!-- Fin del Modal del Carrito -->
+
     <!-- Sección de bienvenida -->
     <header class=" text-white text-center py-5" style="background-color: #AD2E05;   margin-top: 80px;">
-        <h1>Bienvenidos a Pizzería El rincoon de la pizza</h1>
-        <p>Las mejores pizzas,  recién hechas para ti</p>
+        <h1>Bienvenidos a Pizzería El rincon de la pizza</h1>
+        <p>Las mejores pizzas, recién hechas para ti</p>
     </header>
-
-<!-- Inicio del carrusel de banners -->
-<div id="carouselExampleFade" class="carousel slide carousel-fade">
-    <div class="carousel-inner">
-        <!-- Primer banner: imagen activa al cargar la página -->
-        <div class="carousel-item active">
-            <img src="./imagenes/Banner1.png" class="d-block w-100" alt="Pizza artesanal">
-        </div>
-        <!-- Segundo banner -->
-        <div class="carousel-item">
-            <img src="./imagenes/Banner4.png" class="d-block w-100" alt="Pizza doble queso">
-        </div>
-        <!-- Tercer banner -->
-        <div class="carousel-item">
-            <img src="./imagenes/Banner3.png" class="d-block w-100" alt="Pizza con hierbas">
-        </div>
-        <!-- Cuarto banner -->
-        <div class="carousel-item">
-            <img src="./imagenes/Banner2.png" class="d-block w-100" alt="Pizza de peperoni">
-        </div>
-    </div>
-    <!-- Botón para retroceder el carrusel -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-    </button>
-    <!-- Botón para avanzar en el carrusel -->
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-    </button>
-</div>
-<!-- Fin del carrusel -->
-
-<!-- Sección de productos destacados -->
-<div class="container-sm">
-    <br>
-    <!-- Título de la sección de productos -->
-    <h3><center>------------------------------------ Productos destacados ----------------------------------</center></h3>
-    <br>
-    <div class="row">
-        <!-- Primer producto: Bombas Pepperoni -->
-        <div class="col-md-3">
-            <div class="card mt-4">
-                <div class="card-header"><center>Bombas Pepperoni</center></div>
-                <div class="card-body">
-                    <img src="./imagenes/bouns.jpg" alt="Bombs" class="img-fluid" style="width: 280px; height: 280px;">
-                    <p>Precio: $59 la orden.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Segundo producto: Pizza Pepperoni con hierbas -->
-        <div class="col-md-3">
-            <div class="card mt-4">
-                <div class="card-header"><center>Pizza Pepperoni con hierbas</center></div>
-                <div class="card-body">
-                    <img src="./imagenes/pizaa_chorizo.jpg" alt="Pizza de peperoni con hierbas" class="img-fluid" style="width: 280px; height: 280px;">
-                    <p>Precio: $99 la pizza pequeña.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Tercer producto: Pizza Barbacoa -->
-        <div class="col-md-3">
-            <div class="card mt-4">
-                <div class="card-header"><center>Pizza Barbacoa</center></div>
-                <div class="card-body">
-                    <img src="./imagenes/carne-fria.jpg" alt="Pizza con barbacoa" class="img-fluid" style="width: 280px; height: 280px;">
-                    <p>Precio: $89 la pizza pequeña.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Cuarto producto: Combo del día -->
-        <div class="col-md-3">
-            <div class="card mt-4">
-                <div class="card-header"><center>Combo del día</center></div>
-                <div class="card-body">
-                    <img src="./imagenes/combos-pizza.jpg" alt="Pizzas en oferta" class="img-fluid" style="width: 280px; height: 280px;">
-                    <p>Precio: $169, incluye 2 pizzas pequeñas y dos refrescos de 355ml.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Inicio del pie de página -->
-<footer>
-    <div style="background-color:#AD2E05; padding: 20px; margin-top: 20px; font-family: Arial; color:white; font-size: 10px" class="row">
-        <!-- Sección de información legal -->
-        <div class="col-md-3">
-            <div class="card-header">LEGALES:</div>
-            <div class="card-body">
-                <p style="padding: 20px; margin-top: 20px; font-family: Arial; color:white; font-size: 14px">
-                    <!-- Enlace a la página de "Política de privacidad" -->
-                    <a href="politica_de_privacidad.html" target="_blank" style="color: white; text-decoration: underline;">
-                        Política de privacidad
-                    </a>
-                </p>
-            </div>
-        </div>
-        <!-- Sección de redes sociales -->
-        <div class="col-md-3">
-            <div class="card-header">REDES SOCIALES:</div>
-            <div class="card-body">
-                <p style="padding: 20px; margin-top: 20px; font-family: Arial; color:white; font-size: 14px">
-                    <!-- Enlace a la página de Facebook -->
-                    <a href="https://es-la.facebook.com/login/" target="_blank" style="color: white; text-decoration: underline;">
-                        Facebook
-                    </a>
-                </p>
-            </div>
-        </div>
-        <!-- Sección de dirección -->
-        <div class="col-md-3">
-            <div class="card-header">DIRECCIÓN:</div>
-            <p style="padding: 20px; margin-top: 20px; font-family: Arial; color:white; font-size: 14px">
-                <!-- Enlace a la ubicación en Google Maps -->
-                <a href="https://www.google.com.mx/maps/place/69800+Tlaxiaco,+Oax./@17.266522,-97.680835,16.38z/data=!4m6!3m5!1s0x85c62ec1f70b7fdd:0x5bf555f747e65636!8m2!3d17.2661075!4d-97.676773!16s%2Fg%2F11c5qpk920?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D" 
-                   target="_blank" style="color: white; text-decoration: underline;">
-                    Colonia Centro número 17
-                </a>
-            </p>
-        </div>
-        <!-- Sección de derechos de autor -->
-        <div class="col-md-12">
-            <br>
-            <div class="card-header"><center>©2025 EL RINCÓN DE LA PIZZA. TODOS LOS DERECHOS RESERVADOS</center></div>
-            <br>
-        </div>
-    </div>
-</footer>
-<!-- Fin del pie de página -->
-
 
     <!-- Scripts de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
