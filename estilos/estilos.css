@@ -1,17 +1,42 @@
 .card-header {
     text-size-adjust: 100%;
-    background-color: #f8f9fa; /* Fondo claro para contraste */
-    border-bottom: 1px solid #e9ecef; /* Línea sutil debajo */
-    padding: 1rem 1.25rem; /* Espaciado interno */
-    font-size: 18px; /* Tamaño de texto de 20px */
-    font-family: Cambria, serif; /* Fuente Cambria */
-    font-weight: bold; /* Letras en negrita */
-    color: #060606; /* Color de texto gris oscuro */
-    margin-bottom: 1rem; /* Espacio adicional entre el encabezado y el cuerpo */
+    /* Ajusta el tamaño del texto automáticamente para mejorar la legibilidad en diferentes dispositivos */
+
+    background-color: #f8f9fa; 
+    /* Color de fondo claro para proporcionar contraste con el texto */
+
+    border-bottom: 1px solid #e9ecef; 
+    /* Agrega una línea sutil debajo del encabezado para separarlo visualmente del contenido */
+
+    padding: 1rem 1.25rem; 
+    /* Define un espaciado interno de 1rem en la parte superior e inferior y 1.25rem en los lados */
+
+    font-size: 18px;  
+    /* Establece el tamaño de la fuente en 18 píxeles */
+
+    font-family: Cambria, serif; 
+    /* Usa la fuente "Cambria" con respaldo en fuentes serif en caso de no estar disponible */
+
+    font-weight: bold;  
+    /* Aplica negrita al texto para resaltar el encabezado */
+
+    color: #060606;  
+    /* Define el color del texto en un tono de gris oscuro */
+
+    margin-bottom: 1rem;  
+    /* Agrega un margen en la parte inferior para separar el encabezado del contenido siguiente */
 }
-p{
-    text-align: justify; /* Alineación justificada */
-    font-size: 16px; /* Tamaño de texto de 16px */
-    font-family: arial; /* Fuente Cambria */
-    color: #0e0e0e; /* Color de texto gris oscuro */
+
+p {
+    text-align: justify;  
+    /* Alinea el texto de los párrafos de forma justificada para mejorar la legibilidad */
+
+    font-size: 16px;  
+    /* Establece el tamaño de la fuente en 16 píxeles */
+
+    font-family: Arial;  
+    /* Usa la fuente Arial para los párrafos */
+
+    color: #0e0e0e;  
+    /* Define un color de texto gris oscuro */
 }
