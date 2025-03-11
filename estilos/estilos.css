@@ -1,0 +1,17 @@
+.card-header {
+    text-size-adjust: 100%;
+    background-color: #f8f9fa; /* Fondo claro para contraste */
+    border-bottom: 1px solid #e9ecef; /* Línea sutil debajo */
+    padding: 1rem 1.25rem; /* Espaciado interno */
+    font-size: 18px; /* Tamaño de texto de 20px */
+    font-family: Cambria, serif; /* Fuente Cambria */
+    font-weight: bold; /* Letras en negrita */
+    color: #060606; /* Color de texto gris oscuro */
+    margin-bottom: 1rem; /* Espacio adicional entre el encabezado y el cuerpo */
+}
+p{
+    text-align: justify; /* Alineación justificada */
+    font-size: 16px; /* Tamaño de texto de 16px */
+    font-family: arial; /* Fuente Cambria */
+    color: #0e0e0e; /* Color de texto gris oscuro */
+}
